@@ -8,7 +8,7 @@ function Navigation() {
         <Router>
             <Routes>
                 <Route path="/" element={<Login />} />
-                <Route path="FinalizarPedido" element={<FinalizarPedido/ >} />
+                <Route path="/FinalizarPedido" element={<FinalizarPedido/ >} />
                 <Route path="/home" element={<Home />} />
             </Routes>
         </Router>
