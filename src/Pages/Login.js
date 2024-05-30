@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faLock, faEnvelope, faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from "react-router-dom";
 
 function Login() {
     const [showPassword, setShowPassword] = useState(false);
     const [div, setDiv] = useState('Login');
+    const navigate = useNavigate();
 
     const togglePasswordVisibility = () => {
         setShowPassword(!showPassword);
@@ -64,7 +66,11 @@ function Login() {
                             <input className="focus:outline-none focus:border-indigo-700 border rounded-md bg-transparent w-full px-4 py-2 font-bold pl-10" type={showPassword ? "text" : "password"} placeholder="Senha" />
                             <FontAwesomeIcon icon={showPassword ? faEyeSlash : faEye} onClick={togglePasswordVisibility} className="absolute right-4 cursor-pointer" />
                         </div>
-                        <button className="bg-indigo-700 rounded-full px-16 py-3 font-bold text-lg border-2 border-indigo-700 hover:text-indigo-700 hover:bg-transparent transition-all duration-300 ease-in-out
+                        <button
+                            onClick={() => {
+                                navigate('/home');
+                            }}
+                            className="bg-indigo-700 rounded-full px-16 py-3 font-bold text-lg border-2 border-indigo-700 hover:text-indigo-700 hover:bg-transparent transition-all duration-300 ease-in-out
                     ">Entrar</button>
                     </form>
                 </div>
