@@ -1,0 +1,58 @@
+import React, { useState } from "react";
+
+function FinalizarPedido() {
+    return (
+        <div className="items-center text-white w-full h-screen space-y-8">
+            <div className="h-20 bg-indigo-700 w-screen">
+            </div>
+            <div className="space-y-28 px-32"> 
+                <h1 className="text-4xl text-center py-4 font-bold">Pagamento</h1>
+                <div className="flex flex-col px-20">
+                    <p className="text-2xl pb-4 w-full font-bold">Resumo</p>
+                    <div className="font-bold flex border border-white rounded-2xl justify-between px-8 text-2xl">
+                        <div class="Entrada" className="flex flex-col justify-center items-center p-4 space-y-4">
+                            <p className="">Entrada</p>
+                            <p>17:45</p>
+                        </div>
+                        <div class="Entrada" className="flex flex-col justify-center items-center p-4 space-y-4">
+                            <p>Saída</p>
+                            <p>17:45</p>
+                        </div>
+                        <div class="Entrada" className="flex flex-col justify-center items-center p-4 space-y-4">
+                            <p>Duração</p>
+                            <p>17:45</p>
+                        </div>
+                        <div class="Entrada" className="flex flex-col justify-center items-center p-4 space-y-4">
+                            <p>Valor Total</p>
+                            <p>17:45</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="w-full bg-azulroxado h-0.5">
+                </div>
+                <div className="flex items-center">
+                    <div className="flex items-center">
+                        <div className="flex bg-azulroxado p-6 rounded-xl space-x-4 h-24">
+                            <h1 className="font-bold text-xl flex items-center">Adicionar cupom</h1>
+                            <div className="flex">
+                                <input type="text"></input>
+                                <button className="bg-stone-800 px-12 rounded-r-md text-azulroxado">Utilizar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="px-32 space-y-4">
+                <div>
+                        <p className="text-2xl font-bold">Total: 9,00R$</p>
+                </div>
+                <div>
+                    <button className="bg-azulroxado h-10 w-44 rounded-full">Finalizar</button>
+                </div>
+            </div>
+   
+        </div>
+    );
+}
+
+export default FinalizarPedido;
