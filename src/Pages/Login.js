@@ -14,7 +14,7 @@ function Login() {
 
     return (
         <div className="flex flex-col md:flex-row justify-center items-center text-white w-full h-screen py-8 md:py-32 md:px-40 px-4">
-            <div className="h-full rounded-t-xl bg-indigo-700 flex justify-center items-center flex-col px-8 py-8 md:py-0 md:px-16 w-full md:w-1/3 space-y-4 md:rounded-l-xl md:rounded-tr-none">
+            <div className="h-full rounded-t-xl bg-indigo-700 flex justify-center items-center flex-col px-8 py-2 md:py-0 md:px-16 w-full md:w-1/3 space-y-4 md:rounded-l-xl md:rounded-tr-none">
                 <h1 className="w-full text-3xl md:text-4xl font-bold text-center md:text-left">Bem-Vindo de volta!</h1>
                 <h1 className="w-full text-lg md:text-xl text-gray-300 text-center md:text-left">Acesse sua conta agora mesmo.</h1>
                 <button className="border-2 rounded-full px-8 py-2 md:px-16 md:py-3 font-bold hover:bg-indigo-800 hover:border-indigo-800 transition-all duration-300 ease-in-out"
@@ -23,7 +23,7 @@ function Login() {
                 </button>
                 <a onClick={() => setDiv('AlterarSenha')} className="w-full cursor-pointer underline text-center md:text-left">Esqueceu sua senha?</a>
             </div>
-            <div className="bg-gray-800 w-full md:w-1/2 h-full px-8 py-8 md:px-20 md:py-0 flex justify-center items-center flex-col space-y-4 rounded-b-xl md:rounded-r-xl md:rounded-b-none">
+            <div className="bg-gray-800 w-full md:w-1/2 h-full px-8 py-2 md:px-20 md:py-0 flex justify-center items-center flex-col space-y-4 rounded-b-xl md:rounded-r-xl md:rounded-b-none">
                 <div className={`w-full flex flex-col space-y-4 justify-center items-center transition-all duration-1000 ease-in-out overflow-hidden transition-opacity ${div === 'Cadastro' ? 'h-full opacity-100' : 'h-0 opacity-0'}`}>
                     <h1 className="text-3xl md:text-4xl font-bold">Criar sua conta</h1>
                     <p className="text-gray-500">Preencha seus dados</p>
