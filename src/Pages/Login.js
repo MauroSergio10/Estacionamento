@@ -30,9 +30,8 @@ function Login() {
                     onClick={() => setDiv('AlterarSenha')}
                     className="w-full cursor-pointer underline ">Esqueceu sua senha?</a>
             </div>
-            <div className="flex flex-col h-full bg-gray-800 w-1/3 px-20 rounded-r-xl justify-center items-center space-y-4">
-                <div className={`w-full flex flex-col space-y-4 justify-center items-center transition-all duration-1000 ease-in-out overflow-hidden transition-opacity 
-                ${div === 'Cadastro' ? 'h-full opacity-100' : 'h-0 opacity-0'}`}>
+            <div className=" h-full bg-gray-800 w-1/3 px-20 rounded-r-xl justify-center items-center space-y-4">
+                <div className={`w-full flex flex-col space-y-4 justify-center items-center transition-all duration-1000 ease-in-out overflow-hidden transition-opacity  ${div === 'Cadastro' ? 'h-full opacity-100' : 'h-0 opacity-0'}`}>
                     <h1 className="text-4xl font-bold">Criar sua conta</h1>
                     <p className="text-gray-500">Preencha seus dados</p>
                     <form className="flex flex-col w-full space-y-3 justify-center items-center">
@@ -53,7 +52,7 @@ function Login() {
                     ">Cadastrar</button>
                     </form>
                 </div>
-                <div className={`w-full h-full flex flex-col space-y-4 justify-center items-center transition-all duration-1000 ease-in-out overflow-hidden transition-opacity  ${div === 'Login' ? 'h-full opacity-100' : 'h-0 opacity-0'} `}>
+                <div className={`w-full flex flex-col space-y-4 justify-center items-center transition-all duration-1000 ease-in-out overflow-hidden transition-opacity  ${div === 'Login' ? 'h-full opacity-100' : 'h-0 opacity-0'} `}>
                     <h1 className="text-4xl font-bold">Login</h1>
                     <p className="text-gray-500">Preencha seus dados</p>
                     <form className="flex flex-col w-full space-y-3 justify-center items-center">

@@ -39,7 +39,6 @@ function Home() {
                     <h1 className="font-bold text-white text-xl w-full flex justify-center items-center py-8 ">Gereciamento de Vagas</h1>
                     <div className="flex space-x-8 ">
                         <div className="w-full flex flex-wrap ">
-                            {/* ate o item 9 */}
                             {list.slice(0, 10).map((item) => (
                                 <div className="w-1/2">
                                     <div className="p-2">
