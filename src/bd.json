@@ -13,21 +13,21 @@
     },
     {
         "id": 3,
-        "active": false,
-        "placa": "8AOYF4P",
-        "dataEntrada": "2024-06-05T18:20:01.526338"
+        "active": true,
+        "placa": "DISPONIVEL",
+        "dataEntrada": ""
     },
     {
         "id": 4,
         "active": false,
-        "placa": "6IBQQMY",
-        "dataEntrada": "2024-06-05T18:22:11.606123"
+        "placa": "ZM06BOW",
+        "dataEntrada": "2024-06-05T18:23:11.633124"
     },
     {
         "id": 5,
-        "active": true,
-        "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "active": false,
+        "placa": "Z0TUCYY",
+        "dataEntrada": "2024-06-05T18:23:51.649026"
     },
     {
         "id": 6,
@@ -37,9 +37,9 @@
     },
     {
         "id": 7,
-        "active": true,
-        "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "active": false,
+        "placa": "WHQMGV6",
+        "dataEntrada": "2024-06-05T18:23:21.642772"
     },
     {
         "id": 8,
@@ -62,8 +62,8 @@
     {
         "id": 11,
         "active": false,
-        "placa": "L22FEQU",
-        "dataEntrada": "2024-06-05T18:22:51.629666"
+        "placa": "6JL3QH0",
+        "dataEntrada": "2024-06-05T18:23:51.649026"
     },
     {
         "id": 12,
@@ -98,8 +98,8 @@
     {
         "id": 17,
         "active": false,
-        "placa": "FDV4YHG",
-        "dataEntrada": "2024-06-05T18:11:51.257627"
+        "placa": "QMOW4UP",
+        "dataEntrada": "2024-06-05T18:23:31.644043"
     },
     {
         "id": 18,
@@ -110,8 +110,8 @@
     {
         "id": 19,
         "active": false,
-        "placa": "KJAH41M",
-        "dataEntrada": "2024-06-05T18:19:41.521479"
+        "placa": "QVVPNLY",
+        "dataEntrada": "2024-06-05T18:23:31.644043"
     },
     {
         "id": 20,
