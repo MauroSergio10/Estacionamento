@@ -20,8 +20,8 @@
     {
         "id": 4,
         "active": false,
-        "placa": "PW6L7FM",
-        "dataEntrada": "2024-06-05T18:21:01.584820"
+        "placa": "6IBQQMY",
+        "dataEntrada": "2024-06-05T18:22:11.606123"
     },
     {
         "id": 5,
@@ -43,9 +43,9 @@
     },
     {
         "id": 8,
-        "active": false,
-        "placa": "AQ746IO",
-        "dataEntrada": "2024-06-05T18:20:31.543544"
+        "active": true,
+        "placa": "DISPONIVEL",
+        "dataEntrada": ""
     },
     {
         "id": 9,
@@ -62,8 +62,8 @@
     {
         "id": 11,
         "active": false,
-        "placa": "81WBGLX",
-        "dataEntrada": "2024-06-05T18:21:01.584820"
+        "placa": "L22FEQU",
+        "dataEntrada": "2024-06-05T18:22:51.629666"
     },
     {
         "id": 12,
@@ -86,14 +86,14 @@
     {
         "id": 15,
         "active": false,
-        "placa": "8549R6D",
-        "dataEntrada": "2024-06-05T18:21:31.601643"
+        "placa": "SW9W4EZ",
+        "dataEntrada": "2024-06-05T18:22:51.629666"
     },
     {
         "id": 16,
         "active": false,
-        "placa": "4IBJOPG",
-        "dataEntrada": "2024-06-05T18:22:01.604425"
+        "placa": "AD45EBL",
+        "dataEntrada": "2024-06-05T18:22:31.623446"
     },
     {
         "id": 17,
