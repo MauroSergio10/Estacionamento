@@ -4,7 +4,9 @@ from datetime import datetime, timedelta
 import time
 
 # Carregar os dados do arquivo JSON
-with open('C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\web\\src\\bd.json', 'r') as f:
+with open('D:\\College\\WebProgramming\\Projeto-final-web\\src\\bd.json', 'r') as f:
+    # Your code here
+
     data = json.load(f)
 
 # Função para gerar uma data aleatória
@@ -39,6 +41,8 @@ def alter_data(data):
 # Alterar os dados a cada intervalo de tempo aleatório
 while True:
     alter_data(data)
-    with open('C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\web\\src\\bd.json', 'w') as f:
+    with open('D:\\College\\WebProgramming\\Projeto-final-web\\src\\bd.json', 'w') as f:
+    # Your code here
+
         json.dump(data, f, indent=4)
-    time.sleep(random.randint(60, 300))  # espera entre 1 e 5 minutos
+    time.sleep(random.randint(10, 10))  # espera entre 1 e 5 minutos

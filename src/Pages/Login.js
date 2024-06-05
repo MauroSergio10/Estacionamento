@@ -21,7 +21,7 @@ function Login() {
                     onClick={() => { div === 'Login' ? setDiv('Cadastro') : setDiv('Login'); }}>
                     {div === 'Login' ? 'Criar conta' : 'Já tenho conta'}
                 </button>
-                <a onClick={() => setDiv('AlterarSenha')} className="w-full cursor-pointer underline text-center lg:text-left">Esqueceu sua senha?</a>
+                <button onClick={() => setDiv('AlterarSenha')} className="w-full cursor-pointer underline text-center lg:text-left">Esqueceu sua senha?</button>
             </div>
             <div className="bg-gray-800 w-full lg:w-1/2 h-full px-8 py-2 lg:px-20 lg:py-0 flex justify-center items-center flex-col space-y-4 rounded-b-xl lg:rounded-r-xl lg:rounded-b-none shadow-2xl shadow-indigo-700">
                 <div className={`w-full flex flex-col space-y-4 justify-center items-center transition-all duration-1000 ease-in-out overflow-hidden transition-opacity ${div === 'Cadastro' ? 'h-full opacity-100' : 'h-0 opacity-0'}`}>

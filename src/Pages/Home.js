@@ -1,38 +1,43 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCar } from '@fortawesome/free-solid-svg-icons';
 import bd from '../bd.json';
 
 function Home() {
-    const [list, setList] = useState(bd);
 
-    const calculateTariff = (dataEntrada) => {
+    const calculateTariff = useCallback((dataEntrada) => {
         if (!dataEntrada) return 0;
         const entrada = new Date(dataEntrada);
         const agora = new Date();
         const diffMinutes = (agora - entrada) / 60000;
         return diffMinutes * 0.10;
-    };
+    }, []);
 
-    const [tariffs, setTariffs] = useState(
-        list.map(item => ({
+    const [tariffs, setTariffs] = useState([]);
+
+    // Atualiza os dados sempre que o componente é montado e sempre que bd.json é atualizado
+    useEffect(() => {
+        const updatedTariffs = bd.map(item => ({
             id: item.id,
             tariff: item.active ? calculateTariff(item.dataEntrada) : calculateTariff(item.dataEntrada)
-        }))
-    );
+        }));
+        setTariffs(updatedTariffs);
+    }, [calculateTariff]);
 
     useEffect(() => {
         const interval = setInterval(() => {
-            setTariffs(
-                list.map(item => ({
-                    id: item.id,
-                    tariff: item.active ? calculateTariff(item.dataEntrada) : calculateTariff(item.dataEntrada)
-                }))
-            );
-        }, 60000); // Atualiza a cada minuto
+            const updatedTariffs = bd.map(item => ({
+                id: item.id,
+                tariff: item.active ? calculateTariff(item.dataEntrada) : calculateTariff(item.dataEntrada)
+            }));
+            setTariffs(updatedTariffs);
+        }, 1000);
 
+        // Limpa o intervalo quando o componente é desmontado
         return () => clearInterval(interval);
-    }, [list]);
+    }, [calculateTariff]);
+
+
 
     return (
         <div>
@@ -45,7 +50,8 @@ function Home() {
                         <h1 className="font-bold text-white text-xl w-full flex justify-center items-center py-8">Gereciamento de Vagas</h1>
                         <div className="flex flex-col md:flex-row md:space-x-8 w-full">
                             <div className="w-full flex flex-wrap">
-                                {list.slice(0, 10).map((item) => {
+                                {bd.slice(0, 10).map((item) => {
+
                                     const tariff = tariffs.find(t => t.id === item.id)?.tariff || 0;
                                     return (
                                         <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 p-2" key={item.id}>
@@ -70,7 +76,7 @@ function Home() {
                                 <div className="bg-gray-300 w-full h-1/4 my-3 rounded-md shadow-2xl"></div>
                             </div>
                             <div className="w-full flex flex-wrap">
-                                {list.slice(10, 20).map((item) => {
+                                {bd.slice(10, 20).map((item) => {
                                     const tariff = tariffs.find(t => t.id === item.id)?.tariff || 0;
                                     return (
                                         <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 p-2" key={item.id}>
