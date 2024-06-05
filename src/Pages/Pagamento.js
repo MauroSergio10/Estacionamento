@@ -1,5 +1,7 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 function Pagamento() {
+    const navigate = useNavigate();
     return (
         <div className="items-center text-white w-full h-screen space-y-8">
             <div className="h-20 bg-indigo-700 w-screen">
@@ -47,10 +49,9 @@ function Pagamento() {
                     <p className="text-2xl font-bold">Total: 9,00R$</p>
                 </div>
                 <div>
-                    <button className="bg-azulroxado h-10 w-44 rounded-full">Finalizar</button>
+                    <button onClick={() => navigate('/ConsultarPlaca')} className="bg-azulroxado h-10 w-44 rounded-full">Finalizar</button>
                 </div>
             </div>
-
         </div >
     );
 }

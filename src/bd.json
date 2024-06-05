@@ -1,62 +1,29 @@
 [
     {
         "id": 1,
-<<<<<<< HEAD
         "active": true,
         "placa": "DISPONIVEL",
         "dataEntrada": ""
     },
     {
         "id": 2,
-        "active": true,
-        "placa": "DISPONIVEL",
-        "dataEntrada": ""
-    },
-    {
-        "id": 3,
-=======
         "active": false,
-        "placa": "VGHSK4L",
-        "dataEntrada": "2024-06-05T17:58:10.016698"
-    },
-    {
-        "id": 2,
-        "active": false,
-        "placa": "OY11ZCC",
-        "dataEntrada": "2024-06-05T17:56:43.603539"
+        "placa": "JV55XQZ",
+        "dataEntrada": "2024-06-05T20:19:30.818558"
     },
     {
         "id": 3,
         "active": false,
-        "placa": "JMNEY9Q",
-        "dataEntrada": "2024-06-05T18:02:19.358053"
+        "placa": "PJBW7GK",
+        "dataEntrada": "2024-06-05T20:20:50.826387"
     },
     {
         "id": 4,
->>>>>>> d988a8c19c384b857a84ae12817a8dbf683645ff
-        "active": true,
-        "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "active": false,
+        "placa": "VWVXIFQ",
+        "dataEntrada": "2024-06-05T20:24:10.846603"
     },
     {
-<<<<<<< HEAD
-        "id": 4,
-        "active": false,
-        "placa": "ZM06BOW",
-        "dataEntrada": "2024-06-05T18:23:11.633124"
-    },
-    {
-        "id": 5,
-        "active": false,
-        "placa": "Z0TUCYY",
-        "dataEntrada": "2024-06-05T18:23:51.649026"
-    },
-    {
-        "id": 6,
-        "active": false,
-        "placa": "UY0JTN6",
-        "dataEntrada": "2024-06-05T18:16:41.416581"
-=======
         "id": 5,
         "active": true,
         "placa": "DISPONIVEL",
@@ -64,21 +31,15 @@
     },
     {
         "id": 6,
-        "active": true,
-        "placa": "DISPONIVEL",
-        "dataEntrada": ""
->>>>>>> d988a8c19c384b857a84ae12817a8dbf683645ff
+        "active": false,
+        "placa": "RF3IX82",
+        "dataEntrada": "2024-06-05T20:23:00.839797"
     },
     {
         "id": 7,
         "active": false,
-<<<<<<< HEAD
-        "placa": "WHQMGV6",
-        "dataEntrada": "2024-06-05T18:23:21.642772"
-=======
-        "placa": "UISTFTG",
-        "dataEntrada": "2024-06-05T18:01:49.347257"
->>>>>>> d988a8c19c384b857a84ae12817a8dbf683645ff
+        "placa": "J92RJI2",
+        "dataEntrada": "2024-06-05T20:24:40.857157"
     },
     {
         "id": 8,
@@ -88,15 +49,9 @@
     },
     {
         "id": 9,
-<<<<<<< HEAD
         "active": false,
-        "placa": "N235371",
-        "dataEntrada": "2024-06-05T18:17:51.450478"
-=======
-        "active": true,
-        "placa": "DISPONIVEL",
-        "dataEntrada": ""
->>>>>>> d988a8c19c384b857a84ae12817a8dbf683645ff
+        "placa": "Q6FYBW4",
+        "dataEntrada": "2024-06-05T20:18:10.810773"
     },
     {
         "id": 10,
@@ -106,32 +61,21 @@
     },
     {
         "id": 11,
-        "active": false,
-<<<<<<< HEAD
-        "placa": "6JL3QH0",
-        "dataEntrada": "2024-06-05T18:23:51.649026"
-=======
-        "placa": "XX21QAU",
-        "dataEntrada": "2024-06-05T18:01:49.347257"
->>>>>>> d988a8c19c384b857a84ae12817a8dbf683645ff
+        "active": true,
+        "placa": "DISPONIVEL",
+        "dataEntrada": ""
     },
     {
         "id": 12,
-        "active": true,
-        "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "active": false,
+        "placa": "81GF8G4",
+        "dataEntrada": "2024-06-05T20:20:20.823180"
     },
     {
         "id": 13,
-<<<<<<< HEAD
-        "active": true,
-        "placa": "DISPONIVEL",
-        "dataEntrada": ""
-=======
         "active": false,
-        "placa": "0NEZ6UV",
-        "dataEntrada": "2024-06-05T17:58:40.022913"
->>>>>>> d988a8c19c384b857a84ae12817a8dbf683645ff
+        "placa": "L5FLKIZ",
+        "dataEntrada": "2024-06-05T20:23:50.844700"
     },
     {
         "id": 14,
@@ -141,23 +85,6 @@
     },
     {
         "id": 15,
-<<<<<<< HEAD
-        "active": false,
-        "placa": "SW9W4EZ",
-        "dataEntrada": "2024-06-05T18:22:51.629666"
-    },
-    {
-        "id": 16,
-        "active": false,
-        "placa": "AD45EBL",
-        "dataEntrada": "2024-06-05T18:22:31.623446"
-    },
-    {
-        "id": 17,
-        "active": false,
-        "placa": "QMOW4UP",
-        "dataEntrada": "2024-06-05T18:23:31.644043"
-=======
         "active": true,
         "placa": "DISPONIVEL",
         "dataEntrada": ""
@@ -173,7 +100,6 @@
         "active": true,
         "placa": "DISPONIVEL",
         "dataEntrada": ""
->>>>>>> d988a8c19c384b857a84ae12817a8dbf683645ff
     },
     {
         "id": 18,
@@ -183,17 +109,6 @@
     },
     {
         "id": 19,
-<<<<<<< HEAD
-        "active": false,
-        "placa": "QVVPNLY",
-        "dataEntrada": "2024-06-05T18:23:31.644043"
-    },
-    {
-        "id": 20,
-        "active": true,
-        "placa": "DISPONIVEL",
-        "dataEntrada": ""
-=======
         "active": true,
         "placa": "DISPONIVEL",
         "dataEntrada": ""
@@ -201,8 +116,7 @@
     {
         "id": 20,
         "active": false,
-        "placa": "79L0V85",
-        "dataEntrada": "2024-06-05T18:01:29.342810"
->>>>>>> d988a8c19c384b857a84ae12817a8dbf683645ff
+        "placa": "A1DXUB4",
+        "dataEntrada": "2024-06-05T20:22:20.835930"
     }
 ]
