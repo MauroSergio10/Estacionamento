@@ -15,7 +15,7 @@
     { "id": 14, "active": false, "placa": "NOP5G67", "dataEntrada": "2024-05-30T14:00:00" },
     { "id": 15, "active": true, "placa": "DISPONIVEL", "dataEntrada": "" },
     { "id": 16, "active": false, "placa": "TUV7I89", "dataEntrada": "2024-05-30T09:00:00" },
-    { "id": 17, "active": false, "placa": "HUV3423", "dataEntrada": "2024-05-31T10:15:00" },
+    { "id": 17, "active": true, "placa": "DISPONIVEL", "dataEntrada": "" },
     { "id": 18, "active": true, "placa": "DISPONIVEL", "dataEntrada": "" },
     { "id": 19, "active": true, "placa": "DISPONIVEL", "dataEntrada": "" },
     { "id": 20, "active": false, "placa": "FGH2M34", "dataEntrada": "2024-05-30T13:00:00" }
