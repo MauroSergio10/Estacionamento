@@ -1,15 +1,15 @@
 [
     {
         "id": 1,
-        "active": false,
-        "placa": "VGHSK4L",
-        "dataEntrada": "2024-06-05T17:58:10.016698"
+        "active": true,
+        "placa": "DISPONIVEL",
+        "dataEntrada": ""
     },
     {
         "id": 2,
-        "active": false,
-        "placa": "OY11ZCC",
-        "dataEntrada": "2024-06-05T17:56:43.603539"
+        "active": true,
+        "placa": "DISPONIVEL",
+        "dataEntrada": ""
     },
     {
         "id": 3,
@@ -37,9 +37,9 @@
     },
     {
         "id": 7,
-        "active": false,
-        "placa": "UISTFTG",
-        "dataEntrada": "2024-06-05T18:01:49.347257"
+        "active": true,
+        "placa": "DISPONIVEL",
+        "dataEntrada": ""
     },
     {
         "id": 8,
@@ -61,9 +61,9 @@
     },
     {
         "id": 11,
-        "active": false,
-        "placa": "XX21QAU",
-        "dataEntrada": "2024-06-05T18:01:49.347257"
+        "active": true,
+        "placa": "DISPONIVEL",
+        "dataEntrada": ""
     },
     {
         "id": 12,
@@ -73,9 +73,9 @@
     },
     {
         "id": 13,
-        "active": false,
-        "placa": "0NEZ6UV",
-        "dataEntrada": "2024-06-05T17:58:40.022913"
+        "active": true,
+        "placa": "DISPONIVEL",
+        "dataEntrada": ""
     },
     {
         "id": 14,
@@ -109,14 +109,14 @@
     },
     {
         "id": 19,
-        "active": false,
-        "placa": "1OQJYFU",
-        "dataEntrada": "2024-06-05T18:01:39.345292"
+        "active": true,
+        "placa": "DISPONIVEL",
+        "dataEntrada": ""
     },
     {
         "id": 20,
-        "active": false,
-        "placa": "79L0V85",
-        "dataEntrada": "2024-06-05T18:01:29.342810"
+        "active": true,
+        "placa": "DISPONIVEL",
+        "dataEntrada": ""
     }
 ]

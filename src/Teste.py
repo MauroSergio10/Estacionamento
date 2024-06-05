@@ -41,4 +41,4 @@ while True:
     alter_data(data)
     with open('C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\web\\src\\bd.json', 'w') as f:
         json.dump(data, f, indent=4)
-    time.sleep(random.randint(60, 300))  # espera entre 1 e 5 minutos
+    time.sleep(random.randint(10, 10))  # espera entre 1 e 5 minutos
