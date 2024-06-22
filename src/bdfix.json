@@ -3,120 +3,140 @@
         "id": 1,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 2,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 3,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 4,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 5,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 6,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 7,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 8,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 9,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 10,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 11,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 12,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 13,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 14,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 15,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 16,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 17,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 18,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 19,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     },
     {
         "id": 20,
         "active": true,
         "placa": "DISPONIVEL",
-        "dataEntrada": ""
+        "dataEntrada": "",
+        "dataSaida": ""
     }
 ]
