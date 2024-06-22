@@ -7,9 +7,7 @@ import dadosEstacionamento from '../bd.json'; // Importe seu arquivo JSON aqui
 function Pagamento() {
     const navigate = useNavigate();
     const location = useLocation();
-
-    // Encontrando o primeiro estacionamento ativo (active: false) no JSON
-    const dadosEstacionamentoAtivo = dadosEstacionamento.find(estacionamento => !estacionamento.active);
+    const { dadosEstacionamento } = location.state; // Recebe os dados da consulta de placa
 
     const calculateTariff = useCallback((dataEntrada, dataSaida) => {
         if (!dataEntrada || !dataSaida) return 0;
@@ -33,12 +31,12 @@ function Pagamento() {
     }, []);
 
     useEffect(() => {
-        if (dadosEstacionamentoAtivo) {
-            const { dataEntrada, dataSaida } = dadosEstacionamentoAtivo;
+        if (dadosEstacionamento) {
+            const { dataEntrada, dataSaida } = dadosEstacionamento;
             const tarifaCalculada = calculateTariff(dataEntrada, dataSaida || horaAtual);
             setValorTotal(tarifaCalculada);
         }
-    }, [dadosEstacionamentoAtivo, calculateTariff, horaAtual]);
+    }, [dadosEstacionamento, calculateTariff, horaAtual]);
 
     const formatarHorario = (data) => {
         if (!data) return "";
@@ -75,19 +73,19 @@ function Pagamento() {
                 <h1 className="text-4xl text-center py-4 font-bold">Pagamento</h1>
                 <div className="flex flex-col px-20">
                     <p className="text-2xl pb-4 w-full font-bold">Resumo</p>
-                    {dadosEstacionamentoAtivo && (
+                    {dadosEstacionamento && (
                         <div className="font-bold flex border border-white rounded-2xl justify-between px-8 text-2xl">
                             <div className="flex flex-col justify-center items-center p-4 space-y-4">
                                 <p>Entrada</p>
-                                <p>{formatarHorario(dadosEstacionamentoAtivo.dataEntrada)}</p>
+                                <p>{formatarHorario(dadosEstacionamento.dataEntrada)}</p>
                             </div>
                             <div className="flex flex-col justify-center items-center p-4 space-y-4">
                                 <p>Saída</p>
-                                <p>{formatarHorario(dadosEstacionamentoAtivo.dataSaida || horaAtual)}</p>
+                                <p>{formatarHorario(dadosEstacionamento.dataSaida || horaAtual)}</p>
                             </div>
                             <div className="flex flex-col justify-center items-center p-4 space-y-4">
                                 <p>Duração</p>
-                                <p>{calcularDuracao(dadosEstacionamentoAtivo.dataEntrada, dadosEstacionamentoAtivo.dataSaida)}</p>
+                                <p>{calcularDuracao(dadosEstacionamento.dataEntrada, dadosEstacionamento.dataSaida)}</p>
                             </div>
                             <div className="flex flex-col justify-center items-center p-4 space-y-4">
                                 <p>Valor Total</p>
