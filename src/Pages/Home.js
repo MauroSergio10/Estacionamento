@@ -1,10 +1,12 @@
 import React, { useState, useEffect, useCallback } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCar } from '@fortawesome/free-solid-svg-icons';
+import { faCar, faHistory, faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 import bd from '../bd.json';
+import { useUser } from "../UserContext";
+import { Link } from 'react-router-dom'; // Importe o Link para navegação
 
 function Home() {
-
+    const { user, setUser } = useUser();
     const calculateTariff = useCallback((dataEntrada) => {
         if (!dataEntrada) return 0;
         const entrada = new Date(dataEntrada);
@@ -37,17 +39,31 @@ function Home() {
         return () => clearInterval(interval);
     }, [calculateTariff]);
 
-
-
     return (
         <div>
-            <header className="bg-gray-800 text-white text-center py-4">
-                <h1 className="text-2xl font-bold">Estacionamento</h1>
+            <header className="bg-gray-800 text-white text-center py-4 items-center flex justify-between flex-row-reverse">
+                <div className="flex items-center w-1/3 justify-end">
+                    <Link to="/historico" className="text-gray-300 hover:text-white mr-4">
+                        <FontAwesomeIcon icon={faHistory} />
+                        <span className="ml-2">Histórico</span>
+                    </Link>
+                    <button onClick={() => setUser(null)} className="text-gray-300 hover:text-white mr-4">
+                        <FontAwesomeIcon icon={faSignOutAlt} />
+                        <span className="ml-2">Logout</span>
+                    </button>
+                </div>
+                <div className="flex-grow w-1/3">
+                    <h1 className="text-2xl font-bold">Estacionamento</h1>
+                </div>
+                <div className="flex items-center w-1/3">
+                    <img src={user?.photo} alt="User" className="rounded-full h-10 w-10 ml-4" />
+                </div>
             </header>
+            {/* Restante do conteúdo... */}
             <div className="flex flex-col justify-center items-center min-h-screen space-y-4">
                 <div className="px-4 md:px-20 flex flex-col md:flex-row w-full">
                     <div className="text-white font-bold bg-gray-800 rounded-2xl px-4 md:px-10 pb-2 w-full">
-                        <h1 className="font-bold text-white text-xl w-full flex justify-center items-center py-8">Gereciamento de Vagas</h1>
+                        <h1 className="font-bold text-white text-xl w-full flex justify-center items-center py-8">Gerenciamento de Vagas</h1>
                         <div className="flex flex-col md:flex-row md:space-x-8 w-full">
                             <div className="w-full flex flex-wrap">
                                 {bd.slice(0, 10).map((item) => {
@@ -89,7 +105,6 @@ function Home() {
                                                         Tarifa: R${tariff.toFixed(2)}
                                                     </h1>
                                                 )}
-
                                             </div>
                                         </div>
                                     );

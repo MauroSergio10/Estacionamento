@@ -4,8 +4,8 @@ from datetime import datetime, timedelta
 import time
 
 # Caminhos dos arquivos JSON
-data_path = 'C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\web\\src\\bd.json'
-history_path = 'C:\\Users\\mathe\\OneDrive\\Área de Trabalho\\web\\src\\historico.json'
+data_path = r"D:\\Projects\\Projeto-final-web\\src\\bd.json"
+history_path = r"D:\Projects\Projeto-final-web\src\historico.json"
 
 # Lista para armazenar as alterações para histórico
 historico = []

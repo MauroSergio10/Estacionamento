@@ -1,121 +1,268 @@
 [
     {
-        "id": 6,
-        "active": false,
-        "placa": "BK6B1K4",
-        "dataEntrada": "2024-06-22T00:49:01.458147",
-        "dataSaida": ""
-    },
-    {
-        "id": 20,
-        "active": false,
-        "placa": "3K06BE1",
-        "dataEntrada": "2024-06-22T00:49:11.460230",
-        "dataSaida": ""
-    },
-    {
-        "id": 19,
-        "active": false,
-        "placa": "I8JOVQC",
-        "dataEntrada": "2024-06-22T00:49:21.461120",
-        "dataSaida": ""
-    },
-    {
-        "id": 17,
-        "active": false,
-        "placa": "GTSSVGZ",
-        "dataEntrada": "2024-06-22T00:49:31.462315",
-        "dataSaida": ""
-    },
-    {
-        "id": 1,
-        "active": false,
-        "placa": "5ZSL61N",
-        "dataEntrada": "2024-06-22T00:49:41.463371",
-        "dataSaida": ""
-    },
-    {
-        "id": 8,
-        "active": false,
-        "placa": "SRETZQD",
-        "dataEntrada": "2024-06-22T00:49:51.464633",
-        "dataSaida": ""
-    },
-    {
-        "id": 13,
-        "active": false,
-        "placa": "6BR06L6",
-        "dataEntrada": "2024-06-22T00:50:01.465917",
-        "dataSaida": ""
-    },
-    {
-        "id": 18,
-        "active": false,
-        "placa": "6KO8RTF",
-        "dataEntrada": "2024-06-22T00:50:11.467125",
-        "dataSaida": ""
-    },
-    {
-        "id": 9,
-        "active": false,
-        "placa": "ZN46DY4",
-        "dataEntrada": "2024-06-22T00:50:11.467125",
-        "dataSaida": ""
-    },
-    {
-        "id": 12,
-        "active": false,
-        "placa": "NQ92YXK",
-        "dataEntrada": "2024-06-22T00:50:21.468940",
-        "dataSaida": ""
-    },
-    {
-        "id": 15,
-        "active": false,
-        "placa": "P7KLPZS",
-        "dataEntrada": "2024-06-22T00:50:31.469988",
-        "dataSaida": ""
-    },
-    {
-        "id": 2,
-        "active": false,
-        "placa": "GJSF6XK",
-        "dataEntrada": "2024-06-22T00:50:31.469988",
-        "dataSaida": ""
-    },
-    {
         "id": 14,
         "active": false,
-        "placa": "IS7I6IY",
-        "dataEntrada": "2024-06-22T00:50:41.471871",
-        "dataSaida": ""
+        "placa": "Z70G8XE",
+        "dataEntrada": "2024-06-22T16:12:37.450081",
+        "dataSaida": "2024-06-22T17:33:37.886Z"
     },
     {
-        "id": 11,
+        "id": 3,
         "active": false,
-        "placa": "OAAY2QE",
-        "dataEntrada": "2024-06-22T00:50:51.473409",
+        "placa": "E9VSJ2X",
+        "dataEntrada": "2024-06-22T16:12:37.450081",
         "dataSaida": ""
     },
     {
         "id": 10,
         "active": false,
-        "placa": "ZDNIV9Z",
-        "dataEntrada": "2024-06-22T00:51:01.474650",
-        "dataSaida": ""
-    },
-    {
-        "id": 7,
-        "active": false,
-        "placa": "QZU4DP7",
-        "dataEntrada": "2024-06-22T00:51:11.476203",
+        "placa": "ORR5OO2",
+        "dataEntrada": "2024-06-22T16:13:07.452041",
         "dataSaida": ""
     },
     {
         "id": 16,
         "active": false,
-        "placa": "REQHSF1",
-        "dataEntrada": "2024-06-22T00:51:11.476203",
+        "placa": "RFKEN5K",
+        "dataEntrada": "2024-06-22T16:13:07.452041",
+        "dataSaida": ""
+    },
+    {
+        "id": 12,
+        "active": false,
+        "placa": "55199GQ",
+        "dataEntrada": "2024-06-22T16:13:37.453888",
+        "dataSaida": ""
+    },
+    {
+        "id": 20,
+        "active": false,
+        "placa": "12B1RST",
+        "dataEntrada": "2024-06-22T16:13:37.453888",
+        "dataSaida": ""
+    },
+    {
+        "id": 17,
+        "active": false,
+        "placa": "U76T2E3",
+        "dataEntrada": "2024-06-22T16:14:07.455603",
+        "dataSaida": ""
+    },
+    {
+        "id": 2,
+        "active": false,
+        "placa": "BI38KNW",
+        "dataEntrada": "2024-06-22T16:14:07.455603",
+        "dataSaida": "2024-06-22T17:09:41.064Z"
+    },
+    {
+        "id": 5,
+        "active": false,
+        "placa": "0PQV3Z0",
+        "dataEntrada": "2024-06-22T16:14:37.457335",
+        "dataSaida": "2024-06-22T17:35:54.388Z"
+    },
+    {
+        "id": 15,
+        "active": false,
+        "placa": "XJHOC3C",
+        "dataEntrada": "2024-06-22T16:14:37.457335",
+        "dataSaida": ""
+    },
+    {
+        "id": 1,
+        "active": false,
+        "placa": "6ZJXWZD",
+        "dataEntrada": "2024-06-22T16:15:07.459178",
+        "dataSaida": "2024-06-22T17:34:08.624Z"
+    },
+    {
+        "id": 4,
+        "active": false,
+        "placa": "JTR9ETL",
+        "dataEntrada": "2024-06-22T16:15:07.459178",
+        "dataSaida": "2024-06-22T17:36:35.099Z"
+    },
+    {
+        "id": 13,
+        "active": false,
+        "placa": "DY815JY",
+        "dataEntrada": "2024-06-22T16:15:37.460468",
+        "dataSaida": ""
+    },
+    {
+        "id": 18,
+        "active": false,
+        "placa": "UZ79F8V",
+        "dataEntrada": "2024-06-22T16:15:37.460468",
+        "dataSaida": ""
+    },
+    {
+        "id": 9,
+        "active": false,
+        "placa": "7W8Q8IL",
+        "dataEntrada": "2024-06-22T16:16:07.462320",
+        "dataSaida": ""
+    },
+    {
+        "id": 11,
+        "active": false,
+        "placa": "VZ32Q7D",
+        "dataEntrada": "2024-06-22T16:16:07.462642",
+        "dataSaida": ""
+    },
+    {
+        "id": 7,
+        "active": false,
+        "placa": "OTY4J33",
+        "dataEntrada": "2024-06-22T16:16:37.463882",
+        "dataSaida": ""
+    },
+    {
+        "id": 6,
+        "active": false,
+        "placa": "TIXY095",
+        "dataEntrada": "2024-06-22T16:16:37.463882",
+        "dataSaida": ""
+    },
+    {
+        "id": 17,
+        "active": false,
+        "placa": "IB3CITP",
+        "dataEntrada": "2024-06-22T19:27:59.199679",
+        "dataSaida": ""
+    },
+    {
+        "id": 16,
+        "active": false,
+        "placa": "G6R1NQE",
+        "dataEntrada": "2024-06-22T19:27:59.199679",
+        "dataSaida": ""
+    },
+    {
+        "id": 15,
+        "active": false,
+        "placa": "ACSDLZY",
+        "dataEntrada": "2024-06-22T19:28:29.201277",
+        "dataSaida": ""
+    },
+    {
+        "id": 12,
+        "active": false,
+        "placa": "YBPEOA2",
+        "dataEntrada": "2024-06-22T19:28:29.201277",
+        "dataSaida": ""
+    },
+    {
+        "id": 7,
+        "active": false,
+        "placa": "M7W05NC",
+        "dataEntrada": "2024-06-22T19:28:59.202892",
+        "dataSaida": ""
+    },
+    {
+        "id": 13,
+        "active": false,
+        "placa": "6RYP2LB",
+        "dataEntrada": "2024-06-22T19:28:59.202892",
+        "dataSaida": ""
+    },
+    {
+        "id": 18,
+        "active": false,
+        "placa": "QSGT1B8",
+        "dataEntrada": "2024-06-22T19:29:29.204477",
+        "dataSaida": ""
+    },
+    {
+        "id": 3,
+        "active": false,
+        "placa": "SO9IFT4",
+        "dataEntrada": "2024-06-22T19:29:29.204477",
+        "dataSaida": ""
+    },
+    {
+        "id": 14,
+        "active": false,
+        "placa": "Y3BUQS4",
+        "dataEntrada": "2024-06-22T19:29:59.205671",
+        "dataSaida": ""
+    },
+    {
+        "id": 19,
+        "active": false,
+        "placa": "D0J4UE6",
+        "dataEntrada": "2024-06-22T19:29:59.205671",
+        "dataSaida": ""
+    },
+    {
+        "id": 4,
+        "active": false,
+        "placa": "AA03RFB",
+        "dataEntrada": "2024-06-22T19:30:29.207379",
+        "dataSaida": ""
+    },
+    {
+        "id": 11,
+        "active": false,
+        "placa": "4OM9SY4",
+        "dataEntrada": "2024-06-22T19:30:29.207379",
+        "dataSaida": ""
+    },
+    {
+        "id": 6,
+        "active": false,
+        "placa": "MHJFOGD",
+        "dataEntrada": "2024-06-22T19:30:59.209088",
+        "dataSaida": ""
+    },
+    {
+        "id": 10,
+        "active": false,
+        "placa": "FO8ROSJ",
+        "dataEntrada": "2024-06-22T19:30:59.209088",
+        "dataSaida": ""
+    },
+    {
+        "id": 8,
+        "active": false,
+        "placa": "PZGBY35",
+        "dataEntrada": "2024-06-22T19:31:29.212671",
+        "dataSaida": ""
+    },
+    {
+        "id": 20,
+        "active": false,
+        "placa": "UNUQFBJ",
+        "dataEntrada": "2024-06-22T19:31:29.212671",
+        "dataSaida": ""
+    },
+    {
+        "id": 5,
+        "active": false,
+        "placa": "6N32MBQ",
+        "dataEntrada": "2024-06-22T19:31:59.214522",
+        "dataSaida": ""
+    },
+    {
+        "id": 2,
+        "active": false,
+        "placa": "BRPVBNY",
+        "dataEntrada": "2024-06-22T19:31:59.215026",
+        "dataSaida": ""
+    },
+    {
+        "id": 1,
+        "active": false,
+        "placa": "7EJ19XX",
+        "dataEntrada": "2024-06-22T19:32:29.216725",
+        "dataSaida": ""
+    },
+    {
+        "id": 9,
+        "active": false,
+        "placa": "Z9VI4VB",
+        "dataEntrada": "2024-06-22T19:32:29.216725",
         "dataSaida": ""
     }
 ]

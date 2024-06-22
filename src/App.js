@@ -1,11 +1,15 @@
 import './App.css';
 import Navigation from './Navigation';
+import { UserProvider } from './UserContext';
 
 function App() {
   return (
-    <div className="poppins-regular App ">
-      <Navigation />
-    </div>
+    <UserProvider>
+      <div className="poppins-regular App ">
+        <Navigation />
+      </div>
+    </UserProvider>
+
   );
 }
 
